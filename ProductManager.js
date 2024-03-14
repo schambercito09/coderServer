@@ -32,6 +32,39 @@ gestorDeProductos.create({
   price: 100,
   stock: 1000,
 })
+
+gestorDeProductos.create({
+  title:"remera",
+  photo: "remera.jpg",
+  category:"indumentaria",
+  price: 20,
+  stock: 500,
+})
+
+gestorDeProductos.create({
+  title:"pantalon",
+  photo: "pantalon.jpg",
+  category:"indumentaria",
+  price: 30,
+  stock: 600,
+})
+
+gestorDeProductos.create({
+  title:"gorra",
+  photo: "goraa.jpg",
+  category:"accesorios",
+  price: 10,
+  stock: 1200,
+})
+
+gestorDeProductos.create({
+  title:"guantes",
+  photo: "guantes.jpg",
+  category:"accesorios",
+  price: 8,
+  stock: 200,
+})
+
 //crear 4 productos mas 
 
 console.log(gestorDeProductos.read())
