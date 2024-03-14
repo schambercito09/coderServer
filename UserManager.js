@@ -26,6 +26,11 @@ usersManager.create({
     email:"coder@gmail.com",
     password:"hola1234",
 })
+usersManager.create({
+  photo: "photo2.png",
+  email:"coder2@gmail.com",
+  password:"hola12345",
+})
 //crear un usurio mas
 
 console.log(usersManager.read())
